@@ -21,8 +21,8 @@ public class Java_bindingExercise {
     public static final int SIZE = 8000;
     
     public static void main(String[] args) {
-        //call either stackDynamic or heapDynamic
-            //long time = stackDynamic();
+        //call either fixedHeapDynamic or heapDynamic
+            //long time = fixedHeapDynamic();
         long time = heapDynamic();
         //output results
         System.out.println("Finished computing");
@@ -32,7 +32,7 @@ public class Java_bindingExercise {
         
     }
     
-    public static long stackDynamic(){
+    public static long fixedHeapDynamic(){
         //create instance of Random class
         Random rand = new Random();
         //start timer
